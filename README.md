@@ -55,7 +55,7 @@ pip install torch_geometric
 - [torch_sparse](https://github.com/rusty1s/pytorch_sparse)
 
 ```shell
-pip install torch_sparse
+pip install git+https://github.com/rusty1s/pytorch_sparse.git
 ```
 
 - torch_scatter
