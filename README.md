@@ -49,8 +49,15 @@ requires the latest version Pytorch.
 - [torch_geometric](https://pytorch-geometric.readthedocs.io/en/latest/)
 
 ```shell
-torch_geometric
+pip install torch_geometric
 ```
+
+-[torch_sparse]()
+
+```shell
+pip install torch_sparse
+```
+
 
 ## Usage
 Execute the following scripts to train on the sampled data from spring system:
