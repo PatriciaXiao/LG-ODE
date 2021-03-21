@@ -66,7 +66,7 @@ def generate_dataset(args,num_sims,isTrain = True):
 
         loc, vel, T_samples = sim.sample_trajectory_static_graph_irregular_difflength_each(args, edges=static_graph,
                                                                                                isTrain=isTrain)
-        print(123)
+        # print(123)
         if i % 100 == 0:
             print("Iter: {}, Simulation time: {}".format(i, time.time() - t))
         loc_all.append(loc)  # [49,2,5]
