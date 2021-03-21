@@ -46,6 +46,11 @@ requires the latest version Pytorch.
 
 - [numpy 1.16.1](https://numpy.org/)
 
+- [torch_geometric](https://pytorch-geometric.readthedocs.io/en/latest/)
+
+```shell
+torch_geometric
+```
 
 ## Usage
 Execute the following scripts to train on the sampled data from spring system:
