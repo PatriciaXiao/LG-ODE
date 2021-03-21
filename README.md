@@ -38,6 +38,12 @@ This implementation is based on pytorch_geometric. To run the code, you need the
 
 - [torchdiffeq](https://github.com/rtqichen/torchdiffeq)
 
+```shell
+pip install torchdiffeq
+```
+
+requires the latest version Pytorch.
+
 - [numpy 1.16.1](https://numpy.org/)
 
 
