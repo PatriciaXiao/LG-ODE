@@ -52,7 +52,7 @@ requires the latest version Pytorch.
 pip install torch_geometric
 ```
 
--[torch_sparse]()
+-[torch_sparse](https://github.com/rusty1s/pytorch_sparse)
 
 ```shell
 pip install torch_sparse
