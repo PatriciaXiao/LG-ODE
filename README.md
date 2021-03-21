@@ -14,6 +14,10 @@ cd data
 python generate_dataset.py 
 ```
 
+```bash
+python generate_dataset.py --num-train 1000 --num-test 200
+```
+
 This generates the springs dataset, use `--simulation charged` for charged particles. 
 
 As simulated data is too large, we provide a toy-data from spring dataset and can be found under `data/example_data` 
