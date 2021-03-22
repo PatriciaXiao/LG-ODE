@@ -6,7 +6,7 @@ import lib.utils as utils
 
 
 
-class DiffeqSolver(nn.Module):
+class DiffeqSolver(nn.Module): 
     def __init__(self, ode_func, method,args,
             odeint_rtol = 1e-3, odeint_atol = 1e-4, device = torch.device("cpu")):
         super(DiffeqSolver, self).__init__()
