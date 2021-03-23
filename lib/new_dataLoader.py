@@ -8,7 +8,9 @@ import lib.utils as utils
 from torch.nn.utils.rnn import pad_sequence
 
 class ParseData(object):
-
+    """
+    dataloader
+    """
     def __init__(self, dataset_path,args,suffix='_springs5',mode="interp"):
         self.dataset_path = dataset_path
         self.suffix = suffix
