@@ -42,7 +42,7 @@ class LatentGraphODE(VAE_Baseline):
 
 
 
-		# ODE:Shape of sol_y [n_traj_samples, n_samples, n_timepoints, n_latents]
+		# ODE: Shape of sol_y [n_traj_samples, n_samples, n_timepoints, n_latents]
 		sol_y = self.diffeq_solver(first_point_enc, time_steps_to_predict, batch_g)
 
 
